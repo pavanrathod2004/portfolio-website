@@ -4,75 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pavan Portfolio</title>
+    <title>Pavan Rathod | Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
+
+    <!-- ===== NAVBAR ===== -->
     <header>
         <nav class="navbar">
-            <h2 class="logo">Pavan Rathod</h2>
+            <h2 class="logo">Welcome</h2>
             <ul class="nav-link">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skill</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
-
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- ===== HERO SECTION ===== -->
     <section class="Name">
-        <h1>Hello , I'm Pavan Rathod</h1>
-        <p>Full Stack developer</p>
-        <a href="#" class="btn" download>Download Resume</a>
-    </section>
-    <!--About-->
-    <section id="about" class="section">
-        <h2> About Me</h2>
-    </section>
-    <script src="JS/script.js "></script>
+        <div class="hero-container">
 
-    <!--Skill-->
+            <!-- Left Photo -->
+            <div class="hero-image">
+                <img src="Image/myPhoto.jpeg" alt="Pavan Rathod Photo">
+            </div>
 
-    <section id="skill" class="section">
-        <h2>My Skill</h2>
-        <div class="skill-container">
-            <div class="skill-card">
-                <a href="#">Java</a></div>
-            <div class="skill-card"><a href="#">Java</a></div>
-            <div class="skill-card"><a href="#">HTML</a> </div>
-            <div class="skill-card"> <a href="#">CSS</a></div>
-            <div class="skill-card"> <a href="#">JavaScript</a></div>
-            <div class="skill-card"> <a href="#">Spring Boot</a></div>
+            <!-- Top-Right Text -->
+            <div class="hero-content">
+                <h1>Hello, I'm Pavan Rathod</h1>
+                <p>Full Stack Developer</p>
+                <a href="Resume/Pavan_Baban_Rathod_Software_Engineer.pdf" class="btn" download>Download Resume</a>
+            </div>
+
         </div>
     </section>
 
-    <!--Project-->
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Full Stack Developer with strong knowledge in Java, Spring Boot, HTML, CSS, and JavaScript. I enjoy building responsive and user-friendly web applications. I am always eager to learn new technologies and improve my problem-solving skills.
+            My goal is to develop efficient and scalable applications that provide real-world solutions.
+        </p>
+    </section>
 
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skill" class="section">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-card">Java</div>
+            <div class="skill-card">Spring Boot</div>
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECT SECTION ===== -->
     <section id="project" class="section">
-        <h2>My Project</h2>
+        <h2>My Projects</h2>
         <div class="project-container">
+
             <div class="project-card">
-                <h3>E-case Diary (Case Management)</h3>
-                <p>CRUD base web application</p>
+                <h3>E-Case Diary (Case Management)</h3>
+                <p>CRUD-based web application built using Java & Spring Boot.</p>
                 <a href="#" class="btn-small">View Project</a>
             </div>
 
             <div class="project-card">
                 <h3>Bank Management System</h3>
-                <p>CRUD base bank system</p>
+                <p>Banking system with CRUD operations and database integration.</p>
                 <a href="#" class="btn-small">View Project</a>
             </div>
+
             <div class="project-card">
-                <h3>Calculator</h3>
-                <p>Calculator By using JavaScipt</p>
+                <h3>Calculator App</h3>
+                <p>Simple calculator built using HTML, CSS & JavaScript.</p>
                 <a href="#" class="btn-small">View Project</a>
             </div>
+
         </div>
     </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: pavanbrathod2004@gmail.com</p>
+        <p>Phone: +91 9322321068</p>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
     <footer>
-        <p>© 2026 Pavan. All Right Reserved.</p>
+        <p>© 2026 Pavan Rathod. All Rights Reserved.</p>
     </footer>
+
 </body>
 
 </html>
