@@ -13,8 +13,8 @@ Footer Section
 HTML5
 CSS3 (Flexbox, Gradient, Hover Effects)
 JavaScript (Basic Integration)
+
 📂 Project Structure
-Copy code
 
 Portfolio/
 │
