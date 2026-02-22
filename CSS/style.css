@@ -207,6 +207,18 @@ body {
     gap: 25px;
 }
 
+.skill-details {
+    display: none;
+    background-color: #111827;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #1E293B;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .skill-card {
     background-color: #111827;
     padding: 20px;
