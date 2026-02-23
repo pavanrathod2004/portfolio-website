@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-case Diary | Advocate case Management</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+        /* Section Common Style  */
+        
+        section {
+            padding: 80px 10%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        /* Project Intro */
+        
+        .project-intro {
+            text-align: center;
+        }
+        
+        .project-intro h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+        
+        .project-intro p {
+            max-width: 900px;
+            margin: auto;
+            font-size: 18px;
+            color: #cbd5e1;
+        }
+        /*All Section Headings */
+        
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #22d3ee;
+        }
+        /* All Section Paragraph */
+        
+        section p {
+            max-width: 800px;
+            margin-bottom: 25px;
+            font-size: 16px;
+            color: #94a3b8;
+        }
+        /*  Images Styling  */
+        
+        section img {
+            width: 100%;
+            max-width: 850px;
+            border-radius: 12px;
+            display: block;
+            margin-top: 20px;
+            transition: 0.4s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        }
+        /* Hover Effect */
+        
+        section img:hover {
+            transform: scale(1.03);
+        }
+        /*  Alternating Background Effect*/
+        
+        section:nth-child(even) {
+            background: #111c33;
+        }
+        /*  Responsive */
+        
+        @media (max-width: 768px) {
+            section {
+                padding: 60px 5%;
+            }
+            .project-intro h1 {
+                font-size: 28px;
+            }
+            section h2 {
+                font-size: 22px;
+            }
+            section p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="project-intro">
+        <h1>E-case Diary (Advocate Case Management)</h1>
+        <p>
+            E-case Diary is a web application designed to streamline the management of legal cases for advocates. It provides a centralized platform for advocates to organize and track their cases, manage client information, and schedule important dates and deadlines.
+            The application offers features such as case categorization, document storage, and task management, allowing advocates to efficiently handle their caseload and improve productivity. With E-case Diary, advocates can easily access case details,
+            collaborate with clients and colleagues, and stay organized throughout the legal process.
+    </section>
+
+    <section class="login-section">
+        <h2>1. Login Page</h2>
+        <p>This page allows advocates to log in to their E-case Diary account using their credentials. User enters their username and password to access their account. and password and username verified from the database using JDBC. if user credentials are
+            valid, they are redirected to the dashboard page. otherwise, an error message is displayed.</p>
+        <img src="Project Images/login.jpeg" alt="login page">
+    </section>
+    <section class="registration-section">
+        <h2>2. Registration Page</h2>
+        <p>If a user is new to the system, they can register by providing their details. The registration process involves entering personal information, setting up a username and password, and submitting the form. Once registered, the user is directed to
+            the login page where they can access their account.</p>
+        <img src="Project Images/register.png" alt="registration page">
+    </section>
+    <section class="dashboard-section">
+        <h2>3. Dashboard Page</h2>
+        <p>After successful login, users are directed to the dashboard page. The dashboard displays an overview of all cases assigned to the advocate, including case status, and recent activities. Users can also add new cases, update existing case details,
+            and view client information from this page. it displays total case , solve case and pending case. And also After click on logout the session is destroyed and user is redirected to the login page.</p>
+        <img src="Project Images/dashborad.png" alt="dashboard page">
+    </section>
+    <section class="delete-section">
+        <h2>4. Delete Case</h2>
+        <p>This section allows advocates to delete cases from their E-case Diary. Users can select a case and confirm deletion. Once confirmed, the case is removed from the system and cannot be recovered.</p>
+        <img src="Project Images/deleteCase.png" alt="delete Page">
+    </section>
+    <section class="pending-case">
+        <h2>5. Pending Case</h2>
+        <p>This section displays all pending cases assigned to the advocate. Users can view details of each pending case, update their status, and manage deadlines.</p>
+        <img src="Project Images/pendingCase.png" alt="pending case page">
+    </section>
+    <section class="solve-case">
+        <h2>6. Solved Case</h2>
+        <p>This section displays all solved cases assigned to the advocate. Users can view details of each solved case and track their resolution status.</p>
+        <img src="Project Images/solveCase.png" alt="solved case page">
+    </section>
+</body>
+
+</html>
