@@ -338,3 +338,8 @@ footer {
         width: 90%;
     }
 }
+
+.links {
+    text-decoration: none;
+    color: #94A3B8;
+}
