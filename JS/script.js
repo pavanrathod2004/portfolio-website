@@ -3,7 +3,7 @@ function showskill(skill) {
     let content = "";
 
     if (skill === "java") {
-        content = `<h3 style="text-align: center;">Java Skill</h3>
+        content = `<h3 style="text-align: center;" id="java">Java Skill</h3>
                     <ol type='1'>
                         <li><B>Core Java (OOP)</B>
                         
@@ -53,7 +53,7 @@ function showskill(skill) {
     } else
     if (skill === "spring") {
 
-        content = `<h3 style="text-align: center;">SpringBoot Skill</h3>
+        content = `<h3 style="text-align: center;" id="sb">SpringBoot Skill</h3>
                    <ol type='1' >
                         <li><b>Rest API Development</b>
                            <ul>
@@ -79,7 +79,7 @@ function showskill(skill) {
         `;
 
     } else if (skill === "html") {
-        content = `<h3 style="text-align: center;">HTML Skill</h3>
+        content = `<h3 style="text-align: center;" id="html">HTML Skill</h3>
                    <ol type='1'>
                         <li>Basic Structure
                            <ul>
@@ -113,7 +113,7 @@ function showskill(skill) {
         `;
 
     } else if (skill === "css") {
-        content = `<h3 style="text-align: center;">CSS Skill</h3>
+        content = `<h3 style="text-align: center;" id="css">CSS Skill</h3>
          
               <ul>
                 <li>
@@ -139,7 +139,7 @@ function showskill(skill) {
         `;
 
     } else if (skill === "js") {
-        content = `<h3 style="text-align: center;">JavaScript Skill</h3>
+        content = `<h3 style="text-align: center;" id="js">JavaScript Skill</h3>
           <ol type='1'>
           <li><B>DOM Manipulation</B>
               <ul>
